@@ -18,6 +18,9 @@ rcnn-region based convolution network
 in rcnn it works on dividing image into parts and then assign propability values to those parts and whichever part has highest probability its where we consider an object to be present
 
 in yolo algo it focuses on the entire image as a whole and predicts the bounding boxes and then calculate the class probability to label the boxes
+
 the family of yolo framework is very fast as compared to rcnn
-  the latest version of yolo is v3 which uses logistic classification which helps us in making multi layer classification and uses darknet53 as a extractor
+ 
+the latest version of yolo is v3 which uses logistic classification which helps us in making multi layer classification and uses darknet53 as a extractor
+
 darknet53 means 53 convolution layers which makes it help in predicting objects more accurately
